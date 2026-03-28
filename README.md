@@ -93,7 +93,7 @@ Sinta-se livre para contribuir! Abra uma issue ou envie um pull request.
 
 ## 📄 Licença
 
-MIT License © 2024 IdymoZ
+GPL-3.0 license © 2026 IdymoZ
 
 ---
 
