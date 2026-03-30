@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="pt" style="overflow-x: visible">
+<html lang="pt" style="overflow-x: visible; height: 100%">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>IdymoZ - Seu Tutor de Inglês com IA</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -77,16 +77,20 @@
             font-family: 'DM Sans', sans-serif;
             background: var(--bg-main);
             color: var(--text-primary);
-            min-height: 100vh;
+            min-height: 100%;
+            height: 100%;
             transition: var(--transition);
             overflow-x: visible;
+            overflow-y: auto;
+            -webkit-overflow-scrolling: touch;
+            overscroll-behavior: contain;
         }
 
         .app-container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            min-height: 100vh;
+            min-height: 100%;
             display: flex;
             flex-direction: column;
             overflow: visible;
